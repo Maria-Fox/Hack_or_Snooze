@@ -1,0 +1,39 @@
+/* Login and signup forms */
+
+.account-form button {
+  width: 4rem;
+  margin-left: 80px;
+}
+
+#signup-form button {
+  width: 8rem;
+}
+
+.account-forms-container {
+  padding-left: 20px;
+}
+
+#favorited-stories,
+#my-stories {
+  list-style: none;
+  padding-left: 20px;
+}
+
+#stories-loading-msg {
+  font-weight: bold;
+  font-size: 150%;
+  margin: 20px 30px;
+}
+
+/* User stories */
+
+.star,
+.trash-can {
+  font-size: 0.75rem;
+  margin: 0 2px;
+  cursor: pointer;
+}
+
+.trash-can:hover {
+  color: crimson;
+}
